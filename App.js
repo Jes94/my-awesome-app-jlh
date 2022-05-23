@@ -1,8 +1,9 @@
+// A simple project for learning the various aspects of Advanced GitHub in the CI/CD process. 
 const express = require('express')
 const app = express()
 // Changes made to the output
 const APP_PORT = process.env.APP_PORT || 3000; app.get('/', (req, res) => {
-    res.send('Hello to JH and the rest of the world out there!')
+    res.send('Hello <name>! Nice to see you!')
 }); app.listen(APP_PORT, () => {
     console.log(`Running app at port:${APP_PORT}`)
 })
