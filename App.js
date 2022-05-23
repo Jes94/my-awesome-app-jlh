@@ -1,3 +1,4 @@
+// A simple project for learning the various aspects of Advanced GitHub in the CI/CD process. 
 const express = require('express')
 const app = express()
 // Changes made to the output
